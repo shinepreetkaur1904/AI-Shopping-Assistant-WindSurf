@@ -1,33 +1,43 @@
-# AI-Shopping-Assistant-WindSurf
-AI-powered Shopping Assistant built with WindSurf. Compares product reviews via API, provides real-time buying advice. No code, just pure prompt magic.
+# ShopWise AI Shopping Assistant
 
+ShopWise is an AI-powered shopping assistant that helps users make smarter buying decisions by analyzing product reviews and providing personalized recommendations.
 
-# 🛍️ AI Shopping Assistant (WindSurf Project)
+## Features
 
-This is a fully functional AI chatbot that helps users compare product reviews and make smarter buying decisions. Built using WindSurf with real-time API integrations and smart prompts.
+- Smart product search
+- Review analysis and sentiment detection
+- Personalized product recommendations
+- Interactive follow-up questions for better suggestions
 
+## Tech Stack
 
+- React.js
+- Material-UI
+- Axios for API calls
 
-## 💡 Features
-- 📊 Compares product reviews using APIs
-- 🧠 AI-powered recommendations
-- 🗣️ Smart follow-up questions
-- ⚡ Hosted on WindSurf (no need to keep PC on)
+## Setup
 
-## 🚀 How It Works
-1. User enters a product name.
-2. Bot fetches reviews from API.
-3. Summarizes top products based on sentiment.
-4. Provides suggestions with pros, cons, and ratings.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## 🔧 Tech Stack
-- 🧠 AI Prompt Engineering
-- 🌐 WindSurf (No-code Chatbot Builder)
-- 📡 Product Review APIs (e.g. RapidAPI, SerpAPI)
-- 📝 Markdown for docs
+2. Start the development server:
+   ```bash
+   npm start
+   ```
 
-## 📸 Screenshots
-![Chatbot UI](screenshots/chatbot-ui.png)
-![API Integration](screenshots/api-config.png)
+3. Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
 
+## Usage
 
+1. Enter a product name in the search field
+2. View analyzed reviews and recommendations
+3. Answer follow-up questions to get more personalized suggestions
+
+## Note
+
+Currently using mock data for demonstration. To use real product data, you'll need to:
+1. Sign up for a product review API (e.g., Amazon Product API)
+2. Add your API credentials to the environment variables
+3. Update the API integration in the handleSearch function
